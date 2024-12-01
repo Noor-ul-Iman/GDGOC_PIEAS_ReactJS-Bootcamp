@@ -1,0 +1,56 @@
+/* src/components/BookDetails.css */
+
+/* Container for the Book Details Section */
+.book-details-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f9; /* Optional background color */
+  }
+  
+  /* Title Styling */
+  .book-details-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Grid Layout for Book Cards */
+  .book-details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* Space between the cards */
+    justify-items: center; /* Center items horizontally */
+  }
+  
+  /* Styling for Individual Book Cards */
+  .book-details-grid .book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    text-align: center;
+  }
+  
+  /* Hover Effect for Book Cards */
+  .book-details-grid .book-card:hover {
+    transform: translateY(-5px); /* Lift effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Text Styling Inside the Card */
+  .book-details-grid .book-card h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .book-details-grid .book-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  

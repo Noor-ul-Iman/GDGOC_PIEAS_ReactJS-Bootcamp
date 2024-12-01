@@ -1,0 +1,54 @@
+/* src/components/HighRatedBooks.css */
+
+/* Container for the entire section */
+.book-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Styling for the title of the section */
+  .book-container h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  /* Grid layout for the cards */
+  .book-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+    gap: 20px; /* Space between cards */
+    justify-items: center; /* Center cards in their grid cells */
+  }
+  
+  /* Styling for individual BookCard */
+  .book-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Hover effect for BookCard */
+  .book-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for the book details inside the card */
+  .book-card h3 {
+    font-size: 1.25rem;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .book-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
